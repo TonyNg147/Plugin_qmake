@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imports/Utils/Circle.qml</file>
+        <file>imports/Utils/ButtonCustomize.qml</file>
+        <file>imports/Utils/qmldir</file>
+    </qresource>
+</RCC>
