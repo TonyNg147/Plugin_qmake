@@ -14,6 +14,7 @@ int main(int argc, char** argv){
     // import/Utils
     engine.addImportPath(":/imports");
     Param param; 
+    printInfor();
     engine.rootContext()->setContextProperty("APP_ENGINE",QVariant::fromValue(&param));
     engine.load(QUrl("qrc:/main.qml"));
     return app.exec();
